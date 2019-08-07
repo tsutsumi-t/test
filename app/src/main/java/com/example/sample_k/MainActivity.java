@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
 
         protected void onDraw(Canvas cs) {
             super.onDraw(cs);
-            p.setColor(Color.RED);
+            p.setColor(Color.BLACK);
             p.setStyle(Paint.Style.FILL);
             cs.drawCircle(x, y, 10, p);
         }
